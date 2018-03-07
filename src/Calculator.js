@@ -8,11 +8,11 @@ class Calculator extends Component {
 			sum: 0,
 			value1: 0,
 			value2: 0,
-			Operation: "add"
+			// Operation: "add"
 		}
 		this.handleChangeValue1 = this.handleChangeValue1.bind(this)
 		this.handleChangeValue2 = this.handleChangeValue2.bind(this)
-		this.handleChangeOperation = this.handleChangeOperation.bind(this)
+		// this.handleChangeOperation = this.handleChangeOperation.bind(this)
 	}
 
 	calc(e) {
@@ -33,11 +33,11 @@ class Calculator extends Component {
 		})
 	}
 
-	handleChangeOperation(e) {
-		this.setState({
-			Operation: e.target.value
-		})
-	}
+	// handleChangeOperation(e) {
+	// 	this.setState({
+	// 		Operation: e.target.value
+	// 	})
+	// }
 
   	render() {
 	    return (
